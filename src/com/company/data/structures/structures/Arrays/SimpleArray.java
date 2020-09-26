@@ -5,6 +5,10 @@ import com.company.data.structures.models.User;
 
 public class SimpleArray {
 
+    /* Arrays :
+    * it is a fixed size data collection
+    * */
+
     public static void main(String[] args) {
         simpleIntegersArray();
 
@@ -27,8 +31,8 @@ public class SimpleArray {
 
         //searching
         //Big-o is o(n)
-        for(int i=0; i<numbers.length; i++){
-            System.out.print(numbers[i]+"\t");
+        for (int number : numbers) {
+            System.out.print(number + "\t");
         }
     }
 
